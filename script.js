@@ -126,7 +126,7 @@ function newBullet() {
         bulletPosition.y - chickenPosition.y >= -20
       ) {
         bullet.remove();
-        chickenNumber[i].style.display = "none";
+        chickenNumber[i].style.visibility="hidden";
         scoring++;
         score.textContent = `SCORE ${scoring}`;
       }
