@@ -85,7 +85,7 @@ function egg() {
         lives.textContent = `${lifes}`;
         spaceship.src = "spaceship.png";
         losinglife = false;
-      } else {
+      } else if(lifes===0){
         message.textContent = "GAME OVER";
       }
     }
