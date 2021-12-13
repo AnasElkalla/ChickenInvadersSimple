@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+header {
+  color: white !important;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+  width: 100vw;
+  display: fixed;
+}
+span {
+  color: red;
+}
+.container {
+  width: 60vw;
+  height: 30vw;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.egg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  z-index: -1;
+}
+.container div {
+  align-items: center;
+}
+.spaceship {
+  position: absolute;
+  top: 600px;
+  left: 50vw;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  z-index: 1;
+}
+.game {
+  width: 100vw;
+  height: 100vh;
+}
